@@ -76,4 +76,3 @@ class TechnologyErrorState extends NewsState {
   TechnologyErrorState(this.error);
 }
 
-class ControlSwitch extends NewsState{}
