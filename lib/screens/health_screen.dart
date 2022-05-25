@@ -22,6 +22,7 @@ class HealthScreen extends StatelessWidget {
             floatingActionButton: floatingButton(scaffoldKey),
             body: SafeArea(
               child: PageView.builder(
+                scrollDirection: Axis.vertical,
                 physics: const BouncingScrollPhysics(),
                 controller: PageController(),
                 itemBuilder: (context, index) =>

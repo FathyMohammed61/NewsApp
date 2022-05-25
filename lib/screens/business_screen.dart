@@ -37,6 +37,7 @@ class _BusinessScreenState extends State<BusinessScreen> {
             floatingActionButton: floatingButton(scaffoldKey),
             body: SafeArea(
               child: PageView.builder(
+                scrollDirection: Axis.vertical,
                 physics: const BouncingScrollPhysics(),
                 controller: PageController(),
                 itemBuilder: (context, index) =>

@@ -21,6 +21,7 @@ class SportsScreen extends StatelessWidget {
             key: scaffoldKey,
             floatingActionButton: floatingButton(scaffoldKey),
             body: PageView.builder(
+              scrollDirection: Axis.vertical,
               physics: const BouncingScrollPhysics(),
               controller: PageController(),
               itemBuilder: (context, index) =>
